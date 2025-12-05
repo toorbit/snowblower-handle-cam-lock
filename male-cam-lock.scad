@@ -1,24 +1,30 @@
 // =================================================================
-// SNOW JOE HANDLE CAM LOCK REPLACEMENT - 3D PRINTABLE
+// SNOW JOE HANDLE CAM LOCK REPLACEMENT - MALE PART (3D PRINTABLE)
 // =================================================================
-// Product: Snow Joe Ultra 21-Inch Electric Snow Thrower
-// Model: SJ625E
-// Part Name: Handle Lock / Handle Cam Lock
+// Manufacturer: Snow Joe / Sun Joe
+// Product: Ultra 21-Inch Electric Snow Thrower
+// Model: SJ625E (Compatible with ION18SB series)
+// Part Name: Handle Lock / Handle Cam Lock / Pivot Joint
 // OEM Part Number: ION18SB-9
-// Manual Reference: Part #8 in SJ625E owner's manual
+// Manual Reference: Part #8 (Handle locks) in SJ625E Exploded View
+// Manual URL: https://files.snowjoe.com/product-manuals/SJ625EMANUAL_ENG11082017-V1.pdf
 // 
 // Designer: Theo Roe
-// Date: December 2025
-// License: Creative Commons - Attribution
+// Date: December 5, 2025
+// License: Creative Commons - Attribution (CC-BY)
 // 
-// DESIGN NOTES:
-// - Reinforced design with thicker walls and support gussets
-// - Print in PETG, ASA, or ABS (NOT PLA - outdoor/cold use)
-// - 4-5 perimeters, 50-100% infill recommended
-// - Print with body flat on bed, teeth pointing up
+// SPECIFICATIONS:
+// - Body: 70mm OD × 15mm H with 40 locking teeth
+// - Hub: 18.5mm OD × 18mm H with spring groove
+// - Sleeve: 50mm L for 22mm handle tube with M5 retention screw
+// - Hardware: M5 pivot bolt, 11mm OD compression spring
 // 
-// This part is compatible with ION series snowblowers that use
-// the same handle assembly.
+// PRINT SETTINGS:
+// - Material: PETG, ASA, or ABS (NOT PLA - cold/outdoor use)
+// - Walls: Minimum 5 perimeters (2mm shell)
+// - Infill: 40-100% (Gyroid recommended)
+// - Supports: None required if printed flat
+// - Orientation: Body flat on bed, teeth pointing up
 // =================================================================
 
 $fn = 100;
