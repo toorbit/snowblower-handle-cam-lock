@@ -4,10 +4,14 @@
 *.off
 *.dxf
 
-# Ignore STL exports (keep designs, not exports)
-*.stl
+# Ignore temporary STL exports (keep final STLs in stl/ folder)
+# *.stl  - Commented out to allow stl/ folder files
 *.obj
-*.3mf
+# *.3mf  - Commented out to allow 3mf exports
+
+# Keep STL files in the stl/ directory for distribution
+!stl/*.stl
+!stl/*.3mf
 
 # Ignore backup files
 *~

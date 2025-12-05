@@ -17,10 +17,24 @@
 - **Support Phone:** 1-866-SNOWJOE (1-866-766-9563)  
 - **Note:** The official hardware pack typically excludes the plastic cam lock, containing only knobs and bolts
 
+### Download Ready-to-Print Files
+
+**Printables.com:** [View on Printables](https://www.printables.com/) *(Link will be added after upload)*
+
+This design is also available on Printables with photos, print settings, and community makes!
+
 ## Files
 
-- `male-cam-lock.scad` - Male cam lock part with teeth (the rotating handle clamp)
-- `female-cam-lock.scad` - Female cam lock part with tooth receivers (the fixed base)
+### Ready to Print (STL Files)
+- `stl/male-cam-lock.stl` - Male cam lock part (ready to slice and print)
+- `stl/female-cam-lock.stl` - Female cam lock part (ready to slice and print)
+
+### Source Files (OpenSCAD)
+- `male-cam-lock.scad` - Parametric source for male part
+- `female-cam-lock.scad` - Parametric source for female part
+
+**To modify the design:** Install [OpenSCAD](https://openscad.org/) (free, open-source), edit the `.scad` files, and export new STLs.  
+**To just print:** Download the STL files from the `stl/` folder and import into your slicer.
 
 ## Printing Instructions
 
@@ -39,6 +53,40 @@
 ### Orientation
 - **Male Part:** Print with body flat on bed, teeth pointing up
 - **Female Part:** Print with body flat on bed (largest circular face down)
+
+### Test Print Settings (Fast & Economical)
+
+For initial fit testing before final prints:
+- **Layer Height:** 0.28-0.3mm (faster printing)
+- **Walls:** 3 perimeters minimum
+- **Infill:** 15-20% (Grid or Lightning pattern)
+- **Top/Bottom Layers:** 3-4 layers
+- **Supports:** Tree supports (uses less material)
+- **Brim:** 5-8mm (helps adhesion)
+
+**Estimated Material:** ~30-40g per part (~$1-2 total)  
+**Print Time:** ~2-3 hours per part
+
+Once test fit is confirmed, print final parts with full strength settings (5 walls, 50-100% infill).
+
+## Where to Print (Bend, OR)
+
+### DIYcave Makerspace
+**Location:** 444 SE 9th Street, Bend, OR 97703  
+**Phone:** (541) 388-2283  
+**Website:** [diycave.com](https://www.diycave.com)
+
+**Hours:**
+- Thursday: 10am - 10pm
+- Friday & Saturday: 8am - 8pm
+- Sunday: 8am - 5pm
+- Mon/Tue/Wed: CLOSED (Classes and Private Events Only)
+
+**Available 3D Printers:**
+- Creality Ender (220 x 220 x 250mm build volume)
+- Prusa i3 (250 x 210 x 210mm build volume)
+
+Both printers handle PETG, ASA, and ABS filament. Parts fit easily on either printer. Contact DIYcave for current rates and material availability.
 
 ## Assembly Notes
 
