@@ -30,6 +30,8 @@
 
 This is a complete replacement for the broken handle cam lock (pivot joint) on the Snow Joe SJ625E electric snowblower. The original plastic part often fails, and Snow Joe's hardware kits typically don't include it.
 
+**⚠️ Why This Design Exists:** According to forum reports, Snow Joe support has informed customers that this part is out of stock with no restocking planned, making it effectively discontinued. This 3D-printable replacement offers a permanent solution.
+
 **Compatible Models:**
 - Snow Joe SJ625E
 - ION18SB series with similar handle assemblies
