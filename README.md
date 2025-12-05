@@ -59,7 +59,7 @@ This is a complete replacement for the broken handle cam lock (pivot joint) on t
 | Compression Spring | 11mm OD / 9mm ID | Hardware store or Amazon |
 | Handle Screw | M5 machine screw | Hardware store |
 | Hex Nut | M5 hex nut (8.1mm width) | Hardware store |
-| Handle Tube | 22mm OD tubing | Original snowblower part |
+| Handle Tubes | 22mm OD tubing (upper & lower) | Original snowblower parts |
 
 **Note:** The pivot bolt requires a horizontal cross-hole drilled through the head to accept the pin that connects the cam lever.
 
