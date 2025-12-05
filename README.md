@@ -66,7 +66,7 @@ This is a complete replacement for the broken handle cam lock (pivot joint) on t
 ### Filament
 - **Required:** PETG, ASA, or ABS (outdoor/cold rated)
 - **DO NOT USE PLA** - will crack in freezing temperatures
-- **Amount:** ~80-120g per part at full strength
+- **Amount:** \~80-120g per part at full strength
 
 ---
 
@@ -90,8 +90,8 @@ Use these settings for parts that will last:
 | **Supports** | Male: None / Female: Yes | Tree supports for female |
 | **Brim** | 5-8mm | Prevents warping |
 
-**Print Time:** ~4-6 hours per part  
-**Material:** ~80-120g per part (~$4-6 total)
+**Print Time:** \~4-6 hours per part  
+**Material:** \~80-120g per part (\~$4-6 total)
 
 ### Test Print Settings (Fast & Cheap)
 
@@ -104,8 +104,8 @@ For initial fit-testing only:
 | **Infill** | 15-20% | Grid or Lightning |
 | **Supports** | Tree supports | Uses less material |
 
-**Print Time:** ~2-3 hours per part  
-**Material:** ~30-40g per part (~$1-2 total)
+**Print Time:** \~2-3 hours per part  
+**Material:** \~30-40g per part (\~$1-2 total)
 
 ⚠️ **Test prints are for fit-checking only!** Once confirmed, print with final settings above.
 
