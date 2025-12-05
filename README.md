@@ -1,136 +1,186 @@
-# Snow Joe Handle Cam Lock Replacement
+# Snow Joe SJ625E Handle Cam Lock Replacement
 
-3D printable replacement parts for the Snow Joe SJ625E handle cam lock mechanism (pivot joint).
+**3D printable replacement parts for the Snow Joe SJ625E snowblower handle pivot joint.**
 
-## Part Information
+![License: CC-BY](https://img.shields.io/badge/License-CC--BY-blue.svg) ![OpenSCAD](https://img.shields.io/badge/Made%20with-OpenSCAD-yellow.svg)
 
-**Manufacturer:** Snow Joe / Sun Joe  
-**Product:** Ultra 21-Inch Electric Snow Thrower  
-**Model:** SJ625E  
-**OEM Part Number:** ION18SB-9 (Compatible with ION series)  
-**Part Name:** Handle Lock / Handle Cam Lock / Pivot Joint  
-**Manual Reference:** Part #8 (Handle locks) in SJ625E Exploded View  
+## 📥 Quick Start
 
-### Official Resources
+**Just want to print?** Download the STL files from the [`stl/`](stl/) folder and load them into your slicer.
 
-- **Product Manual:** [SJ625E Manual (PDF)](https://files.snowjoe.com/product-manuals/SJ625EMANUAL_ENG11082017-V1.pdf)  
-- **Support Phone:** 1-866-SNOWJOE (1-866-766-9563)  
-- **Note:** The official hardware pack typically excludes the plastic cam lock, containing only knobs and bolts
+**On Printables:** [View on Printables.com](https://www.printables.com/) *(Link coming soon)*
 
-### Download Ready-to-Print Files
+---
 
-**Printables.com:** [View on Printables](https://www.printables.com/) *(Link will be added after upload)*
+## 📋 Table of Contents
 
-This design is also available on Printables with photos, print settings, and community makes!
+- [Overview](#overview)
+- [What You Need](#what-you-need)
+- [Printing Guide](#printing-guide)
+- [Assembly](#assembly)
+- [Files Included](#files-included)
+- [For Makers in Bend, OR](#for-makers-in-bend-or)
+- [Customization](#customization)
+- [Technical Specifications](#technical-specifications)
+- [License & Credits](#license--credits)
 
-## Files
+---
 
-### Ready to Print (STL Files)
-- `stl/male-cam-lock.stl` - Male cam lock part (ready to slice and print)
-- `stl/female-cam-lock.stl` - Female cam lock part (ready to slice and print)
+## 🔍 Overview
 
-### Source Files (OpenSCAD)
-- `male-cam-lock.scad` - Parametric source for male part
-- `female-cam-lock.scad` - Parametric source for female part
+This is a complete replacement for the broken handle cam lock (pivot joint) on the Snow Joe SJ625E electric snowblower. The original plastic part often fails, and Snow Joe's hardware kits typically don't include it.
 
-**To modify the design:** Install [OpenSCAD](https://openscad.org/) (free, open-source), edit the `.scad` files, and export new STLs.  
-**To just print:** Download the STL files from the `stl/` folder and import into your slicer.
+**Compatible Models:**
+- Snow Joe SJ625E
+- ION18SB series with similar handle assemblies
 
-## Printing Instructions
+**OEM Part Reference:** ION18SB-9 (Part #8 in manual)  
+**Official Manual:** [SJ625E Manual PDF](https://files.snowjoe.com/product-manuals/SJ625EMANUAL_ENG11082017-V1.pdf)  
+**Support:** 1-866-SNOWJOE (1-866-766-9563)
 
-### Material
-- **Recommended:** PETG, ASA, or ABS
-- **NOT RECOMMENDED:** PLA (will fail in cold outdoor conditions)
+---
 
-### Print Settings
-- **Layer Height:** 0.2mm
-- **Perimeters (Walls):** Minimum 5 walls (approx 2mm thick shell)
-- **Infill:** 40-100% (Gyroid pattern recommended for strength)
-- **Supports:**
-  - **Male Part:** None required (if printed flat with teardrop hole)
-  - **Female Part:** Required for horizontal sleeve and gussets
+## 🛠️ What You Need
+
+### Parts to Print
+- 1× Male cam lock (the rotating clamp)
+- 1× Female cam lock (the fixed base)
+- 1× Cam lever (the blue quick-release locking handle) - *Design coming soon*
+
+**Note:** The cam lever design is not yet included but is planned for future release. It's the blue plastic lever that pivots on the bolt and locks the handle position via a camming action.
+
+### Hardware (Not Included)
+| Item | Specification | Where to Get |
+|------|---------------|--------------|
+| Pivot Bolt | M5 × 45-50mm with cross-hole in head | Hardware store (specialized) |
+| Metal Pin | For cam lever attachment to bolt | Hardware store or Amazon |
+| Compression Spring | 11mm OD / 9mm ID | Hardware store or Amazon |
+| Handle Screw | M5 machine screw | Hardware store |
+| Hex Nut | M5 hex nut (8.1mm width) | Hardware store |
+| Handle Tube | 22mm OD tubing | Original snowblower part |
+
+**Note:** The pivot bolt requires a horizontal cross-hole drilled through the head to accept the pin that connects the cam lever.
+
+### Filament
+- **Required:** PETG, ASA, or ABS (outdoor/cold rated)
+- **DO NOT USE PLA** - will crack in freezing temperatures
+- **Amount:** ~80-120g per part at full strength
+
+---
+
+## 🖨️ Printing Guide
 
 ### Orientation
-- **Male Part:** Print with body flat on bed, teeth pointing up
-- **Female Part:** Print with body flat on bed (largest circular face down)
+- **Male Part:** Flat on bed, teeth pointing up
+- **Female Part:** Flat on bed, largest circular face down
 
-### Test Print Settings (Fast & Economical)
+### Final Print Settings (Strong & Durable)
 
-For initial fit testing before final prints:
-- **Layer Height:** 0.28-0.3mm (faster printing)
-- **Walls:** 3 perimeters minimum
-- **Infill:** 15-20% (Grid or Lightning pattern)
-- **Top/Bottom Layers:** 3-4 layers
-- **Supports:** Tree supports (uses less material)
-- **Brim:** 5-8mm (helps adhesion)
+Use these settings for parts that will last:
 
-**Estimated Material:** ~30-40g per part (~$1-2 total)  
-**Print Time:** ~2-3 hours per part
+| Setting | Value | Notes |
+|---------|-------|-------|
+| **Material** | PETG, ASA, or ABS | Must be cold-resistant |
+| **Layer Height** | 0.2mm | Good balance |
+| **Walls** | 5 perimeters | ~2mm thick shell |
+| **Infill** | 50-100% | Gyroid pattern recommended |
+| **Top/Bottom** | 5 layers | Solid surfaces |
+| **Supports** | Male: None / Female: Yes | Tree supports for female |
+| **Brim** | 5-8mm | Prevents warping |
 
-Once test fit is confirmed, print final parts with full strength settings (5 walls, 50-100% infill).
+**Print Time:** ~4-6 hours per part  
+**Material:** ~80-120g per part (~$4-6 total)
 
-## Where to Print (Bend, OR)
+### Test Print Settings (Fast & Cheap)
+
+For initial fit-testing only:
+
+| Setting | Value | Notes |
+|---------|-------|-------|
+| **Layer Height** | 0.28-0.3mm | Faster |
+| **Walls** | 3 perimeters | Minimum |
+| **Infill** | 15-20% | Grid or Lightning |
+| **Supports** | Tree supports | Uses less material |
+
+**Print Time:** ~2-3 hours per part  
+**Material:** ~30-40g per part (~$1-2 total)
+
+⚠️ **Test prints are for fit-checking only!** Once confirmed, print with final settings above.
+
+---
+
+## 🔧 Assembly
+
+1. **Insert spring** into the groove on the male part's center hub
+2. **Align teeth** - mesh the 40 teeth of both parts together
+3. **Insert pivot bolt** through the center holes
+4. **Slide handle tube** (22mm OD) into the sleeve
+5. **Secure tube** with M5 screw and hex nut through screw boss
+6. **Test rotation** - parts should lock in multiple positions
+
+---
+
+## 📦 Files Included
+
+### STL Files (Ready to Print)
+- [`stl/male-cam-lock.stl`](stl/male-cam-lock.stl) - Male rotating clamp
+- [`stl/female-cam-lock.stl`](stl/female-cam-lock.stl) - Female fixed base
+
+### Source Files (For Customization)
+- `male-cam-lock.scad` - OpenSCAD parametric source
+- `female-cam-lock.scad` - OpenSCAD parametric source
+
+**Want to modify?** Install [OpenSCAD](https://openscad.org/) (free), edit the `.scad` files, and re-export.
+
+---
+
+## 📍 For Makers in Bend, OR
 
 ### DIYcave Makerspace
-**Location:** 444 SE 9th Street, Bend, OR 97703  
-**Phone:** (541) 388-2283  
-**Website:** [diycave.com](https://www.diycave.com)
+Print these parts locally at DIYcave!
+
+- **Address:** 444 SE 9th Street, Bend, OR 97703
+- **Phone:** (541) 388-2283
+- **Web:** [diycave.com](https://www.diycave.com) | [Tool List](https://www.diycave.com/toollist)
 
 **Hours:**
-- Thursday: 10am - 10pm
-- Friday & Saturday: 8am - 8pm
-- Sunday: 8am - 5pm
-- Mon/Tue/Wed: CLOSED (Classes and Private Events Only)
+- Thu: 10am-10pm | Fri-Sat: 8am-8pm | Sun: 8am-5pm
+- Mon-Wed: CLOSED (Private events only)
 
-**Available 3D Printers:**
-- Creality Ender (220 x 220 x 250mm build volume)
-- Prusa i3 (250 x 210 x 210mm build volume)
+**3D Printers Available:**
+- Creality Ender (220×220×250mm)
+- Prusa i3 (250×210×210mm)
 
-Both printers handle PETG, ASA, and ABS filament. Parts fit easily on either printer. Contact DIYcave for current rates and material availability.
+Both handle PETG/ASA/ABS. Your parts fit easily. Call ahead for rates and filament availability!
 
-## Assembly Notes
+---
 
-The two parts mesh together via their teeth (40 teeth each). A compression spring sits between them, and they're held together with a center bolt. The handle tube (22mm OD) slides into the sleeve and is secured with a retention screw.
+## 🎨 Customization
 
-### Hardware Requirements
+Both SCAD files are organized for easy modification:
 
-| Item | Specification | Notes |
-|------|---------------|-------|
-| **Pivot Bolt** | M5 Carriage or Hex Bolt | Length approx 45-50mm |
-| **Spring** | Compression Spring | 11mm OD / 9mm ID |
-| **Handle Screw** | M5 Machine Screw | For securing sleeve to tube |
-| **Handle Nut** | M5 Hex Nut | 8.1mm width, 4.5mm depth (captive) |
-| **Handle Tube** | 22mm OD | Standard snowblower handle tubing |
+```
+// PRIMARY DIMENSIONS - Adjust these to customize
+Body_OD = 70;           // Main body diameter
+Tooth_Count = 40;       // Number of locking positions
+Sleeve_Length = 50;     // Handle tube socket length
 
-## Design Features
+// CALCULATED DIMENSIONS - Auto-computed (don't edit)
+// MODULES (female part) - Reusable geometry
+```
 
-### Male Part
-- Reinforced center hub with spring groove
-- 40 teeth with stress-relief fillets
-- Rectangular sleeve for handle tube
-- Screw boss with reinforcement gussets
-- Side gussets for torsional strength
+**To customize:**
+1. Open `.scad` file in OpenSCAD
+2. Modify values in `PRIMARY DIMENSIONS` section
+3. Press F5 to preview, F6 to render
+4. Export as STL
 
-### Female Part
-- Matching 40-tooth geometry with 2mm clearance
-- 10mm deep locking pocket
-- Spring retention sleeve
-- Reinforced handle sleeve with cross braces
-- Modular design for easy modification
+---
 
-## Compatibility
+## 📐 Technical Specifications
 
-This design is compatible with Snow Joe ION series snowblowers that use the same handle assembly, including:
-- SJ625E
-- Other ION18SB models with similar handle mechanisms
-
-## Design Credits
-
-**Designer:** Theo Roe  
-**Date:** December 2025  
-**License:** Creative Commons - Attribution (CC-BY)
-
-## Detailed Dimensions
+<details>
+<summary><b>Click to expand detailed dimensions</b></summary>
 
 ### Male Part (Cam Lock / Tooth Hub)
 
@@ -138,15 +188,14 @@ This design is compatible with Snow Joe ION series snowblowers that use the same
 |---------|-------------|-------|
 | Outer Diameter | 70mm | Main body |
 | Body Height | 15mm | Outer rim |
-| Hub Height | 18mm | Center hub matches tooth top |
-| Hub OD | 18.5mm | Allows 3mm walls |
-| Tooth Count | 40 | Around 63mm diameter circle |
+| Hub Height | 18mm | Center hub |
+| Tooth Count | 40 | Locking positions |
 | Tooth Length | 6mm | Radial |
 | Tooth Height | 3mm | Above rim |
-| Tooth Width | 1.8mm | Adjusted for 3D printing |
-| Bolt Hole | 6mm | M5 bolt clearance |
+| Tooth Width | 1.8mm | 3D print adjusted |
+| Bolt Hole | 6mm | M5 clearance |
 | Sleeve Length | 50mm | For 22mm tube |
-| Socket ID | 23mm | 1mm clearance for tube |
+| Socket ID | 23mm | 1mm tube clearance |
 
 ### Female Part (Base / Socket)
 
@@ -155,19 +204,48 @@ This design is compatible with Snow Joe ION series snowblowers that use the same
 | Outer Diameter | 70mm | Main body |
 | Total Height | 24mm | Full part |
 | Floor Height | 20mm | Solid interior |
-| Tooth Count | 40 | Matching male |
+| Tooth Count | 40 | Matches male |
 | Tooth Gap | 2.5mm | 2mm teeth + 0.5mm clearance |
-| Locking Box | 24mm × 31mm | With 2mm raised rim |
+| Locking Box | 24×31mm | 2mm raised rim |
 
-## Modification Tips
+</details>
 
-Both files are structured with clearly labeled sections:
-- **PRIMARY DIMENSIONS** - User-adjustable measurements
-- **CALCULATED DIMENSIONS** - Auto-calculated from primary values
-- **MODULES** (Female part) - Reusable geometry components
+### Design Features
 
-To modify the design, adjust values in the PRIMARY DIMENSIONS section.
+**Male Part:**
+- Reinforced center hub with spring groove
+- 40 teeth with stress-relief fillets for durability
+- Rectangular sleeve for 22mm handle tube
+- Screw boss with reinforcement gussets
+- Side gussets for torsional strength
 
-## Issues & Improvements
+**Female Part:**
+- 40 matching tooth slots with clearance
+- 10mm deep locking pocket mechanism
+- Spring retention sleeve
+- Reinforced handle sleeve with cross braces
+- Modular parametric design
 
-If you find issues or make improvements to this design, please contribute back to help others!
+---
+
+## 📜 License & Credits
+
+**Designer:** Theo Roe  
+**Created:** December 2025  
+**License:** [Creative Commons - Attribution (CC-BY)](https://creativecommons.org/licenses/by/4.0/)
+
+Feel free to remix, modify, and share! Attribution appreciated.
+
+---
+
+## 🤝 Contributing
+
+Found an issue or made an improvement? Contributions welcome!
+
+- **Issues:** [GitHub Issues](https://github.com/toorbit/snowblower-handle-cam-lock/issues)
+- **Improvements:** Submit a pull request or share your remix!
+- **Printed successfully?** Share your make on Printables!
+
+---
+
+**Made with ❄️ for fellow snowblower owners**
