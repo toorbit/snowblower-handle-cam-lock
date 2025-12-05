@@ -1,0 +1,25 @@
+# Ignore OpenSCAD cache files
+*.echo
+*.csg
+*.off
+*.dxf
+
+# Ignore STL exports (keep designs, not exports)
+*.stl
+*.obj
+*.3mf
+
+# Ignore backup files
+*~
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*.swo
